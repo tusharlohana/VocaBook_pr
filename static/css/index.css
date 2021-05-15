@@ -46,6 +46,7 @@
 		width: 40%;
 		display: inline-flex;
 		margin: auto;
+		/*border: 1px solid red;*/
 	}
 	#nav .search input{
 		width: 50%;
@@ -63,9 +64,14 @@
 		font-size:24px;
 		color:#fff;
 	}	
+	#nav #span-item {
+		/*border: 1px solid blue;*/
+		margin: auto;
+		text-align: right;
+	}
 	#nav .usericon{
 		font-size:30px;
-		color::#0DCDA9;
+		color:#0DCDA9;
 		margin: 15px 15px 0 0 ;
 	}
 	#nav .user{
@@ -74,7 +80,6 @@
 	}
 	#nav .user ul{
 		display: none;
-		list-style-type: none;
 		text-transform: capitalize;
 		padding: 2px;
 		text-align: center;
@@ -83,6 +88,10 @@
 	}
 	#nav .user ul li{
 		padding: 3px;
+		list-style-type: none;
+	}
+	#nav .user ul li a{		
+		text-decoration: none;
 	}
 	#nav .user:hover ul{
 		display:block;
@@ -144,7 +153,7 @@
 		text-transform: capitalize;
 		margin: 5px;
 		background: #5D4157;
-		background: -webkit-linear-gradient(to right, #A8CABA, #5D4157);
+		background: -webkit-linear-gradient(to right,#A8CABA,#5D4157);
 		background: linear-gradient(to right, #A8CABA, #5D4157);
 		text-align: center;
 		position: static;
@@ -223,20 +232,15 @@
 }
 #sec5 .footer-div2 ul a{
 	text-decoration: none;
-}/*
-#sec5 .footer-div3 {
-	padding: 15px;
-}*/
+}
 #sec5 .copyright{
 	border-top: 1px solid #000;
 	justify-content: center;
 	display: flex;
 }
 
-#sec5 .footer-div3 .icons{
-
-}
 {% load static %}
+
 @font-face {
     font-family: "Calibri";
     src: url({% static "fonts/calibri.ttf" %});

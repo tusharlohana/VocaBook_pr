@@ -7,8 +7,8 @@
   <title>index</title>
   <meta charset="utf-8">
   <!-- ==================font-awesome 4.7.0====== -->
-  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
- <!--  <link rel="stylesheet" href="{% static 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'%}"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="{% static 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'%}">
 
 
   <link rel="stylesheet" href="../font-awesome-4.7.0/css/font-awesome.min.css">
@@ -25,119 +25,96 @@
   </style>
 </head>
 <body>
-  <header id="header">
-      <nav id="nav">
-        <div class="logo">
-          <!-- <a href=""><img src=""></a> -->
-          Vocabook
-        </div>
-        <div class="search">
-          <input class="form-control me-2" type="search" placeholder="Search..." aria-label="Search">
-              <button class="btn srchbtn" type="submit"><i class="fa fa-search srchicon"></i></button>
-      
-        </div>
-        <div class="user">
-          <a class="nav-link" style="color: #fff">
-              <i class="fa fa-user-circle usericon">
-                <ul>
-                  <li>signup</li>
-                  <li>signin</li>
-                  <li>logout</li>
-                </ul>
-              </i></a>
-        </div>
-      </nav>      
-  </header>
-  <div style="height: 85px;">
-    <!-- empty -->
-  </div>
-  <section id="sec1">
-    <div class="div-one">
-      <p>" Reading is a conversation. all books talk.<br> but a good book listens as well. "
-      </p>
-      <p>
-      - Mark haddon</p>
-      <div class="upload">
-        <!-- <input type="file" name=""><br> -->
-        <button class="btn btn-primary">click to upload</button>
-      </div>
-    </div>
-  </section>
-  <section id="sec4">
-    <div class="m-4">
-      <h1>Learn the words you’ll need to know.</h1>
-    </div>
-    <div class="justify-content-between d-sm-flex  ">
-      <div class="w-25 p-sm-3">
-        <h3>You choose...</h3>
-        <p>Studying for an exam like the SAT, GRE, or TOEFL? We have over 50,000 ready-to-learn vocabulary lists — everything from standardized tests to classic literature, breaking news — you name it.
+	<div style="height: 85px;">
+		<!-- empty -->
+	</div>
+	<section id="sec1">
+		<div class="div-one">
+			<p>" Reading is a conversation. all books talk.<br> but a good book listens as well. "
+			</p>
+			<p>
+			- Mark haddon</p>
+			<div class="upload">
+				<!-- <input type="file" name=""><br> -->
+				<button class="btn btn-primary" ><a href="/upload" style="text-decoration: none; color: #fff;">click to upload</a></button>
+			</div>
+		</div>
+	</section>
+	<section id="sec4">
+		<div class="m-4">
+			<h1>Learn the words you’ll need to know.</h1>
+		</div>
+		<div class="justify-content-between d-sm-flex  ">
+			<div class="w-25 p-sm-3">
+				<h3>You choose...</h3>
+				<p>Studying for an exam like the SAT, GRE, or TOEFL? We have over 50,000 ready-to-learn vocabulary lists — everything from standardized tests to classic literature, breaking news — you name it.
 
-        Just want to ace tomorrow’s vocabulary quiz? Create your own list of words to study. Vocabulary lists are easy to make, share, and learn.</p>
-      </div>
+				Just want to ace tomorrow’s vocabulary quiz? Create your own list of words to study. Vocabulary lists are easy to make, share, and learn.</p>
+			</div>
 
-      <div class="w-25 p-sm-3">
-        <h3>Or, let us choose...</h3>
-        <p>Don’t have a specific list in mind? Let our adaptive learning system find the right words for you.
+			<div class="w-25 p-sm-3">
+				<h3>Or, let us choose...</h3>
+				<p>Don’t have a specific list in mind? Let our adaptive learning system find the right words for you.
 
-        Play a few questions and we’ll zero in on key academic words that are appropriate for your level. Once we get to know you, we won’t waste your time on words that are too easy or too hard.</p>
-      </div>
+				Play a few questions and we’ll zero in on key academic words that are appropriate for your level. Once we get to know you, we won’t waste your time on words that are too easy or too hard.</p>
+			</div>
 
-      <div class="w-25 p-sm-3">
-        <h3>Either way, you’ll improve</h3>
-        <p>Like a good coach, Vocabulary.com won’t give up on you. Whether you pick the words or let us find them for you, we’ll work with you until you’ve mastered them.
+			<div class="w-25 p-sm-3">
+				<h3>Either way, you’ll improve</h3>
+				<p>Like a good coach, Vocabulary.com won’t give up on you. Whether you pick the words or let us find them for you, we’ll work with you until you’ve mastered them.
 
-        And even after you’ve achieved mastery, we’ll continue to reinforce what you have learned to make sure that it all stays fresh in your memory.</p>
-      </div>
-    </div>
-  </section>
-  
-  <section id="sec3">
-    <p>
-      " take a good book with you - <br>
-      books do not snore. " 
-    </p>
-    <p>- thea dorn</p>
-  </section>
+				And even after you’ve achieved mastery, we’ll continue to reinforce what you have learned to make sure that it all stays fresh in your memory.</p>
+			</div>
+		</div>
+	</section>
+	
+	<section id="sec3">
+		<p>
+			" take a good book with you - <br>
+			books do not snore. " 
+		</p>
+		<p>- thea dorn</p>
+	</section>
 
-  <section id="sec5">
-    <footer>
-      <div id="footer-main">
-        <div class="col-3 footer-div1">
-          <span class="logo">vocabook</span>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. </p>
-        </div>
+	<section id="sec5">
+		<footer>
+			<div id="footer-main">
+				<div class="col-3 footer-div1">
+					<span class="logo">vocabook</span>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. </p>
+				</div>
 
-        <div class="col-3 footer-div2">
-          <ul>
-            <a href=""><li>contact</li></a>
-            <a href=""><li>about</li></a>
-            <a href=""><li>privacy & policy</li></a>
-            <a href=""><li>get in touch</li></a>
-          </ul>
-        </div>
+				<div class="col-3 footer-div2">
+					<ul>
+						<a href=""><li>contact</li></a>
+						<a href=""><li>about</li></a>
+						<a href=""><li>privacy & policy</li></a>
+						<a href=""><li>get in touch</li></a>
+					</ul>
+				</div>
 
-        <div class="col-3 footer-div3">
-          <div>
-            <h1 class="h4">register for  free</h1>
-            <button class="btn btn-primary btn-lg mt-4">signup</button>
-          </div>
-          <div class="icons mt-4">
-            <ul class="fs-5">
-              <a class="m-2" href=""><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
-              <a class="m-2" href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-              <a class="m-2" href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-              <a class="m-2" href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
-            </ul>
-          </div>
-        </div>
-      </div>
+				<div class="col-3 footer-div3">
+					<div>
+						<h1 class="h4">register for  free</h1>
+						<button class="btn btn-primary btn-lg mt-4">signup</button>
+					</div>
+					<div class="icons mt-4">
+						<ul class="fs-5">
+							<a class="m-2" href=""><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+							<a class="m-2" href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+							<a class="m-2" href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+							<a class="m-2" href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+						</ul>
+					</div>
+				</div>
+			</div>
 
-      <div class="copyright">
-        <p>copyright @ all rights are reserved by the developer </p>
-      </div>
-    </footer>
-  </section>
+			<div class="copyright">
+				<p>copyright @ all rights are reserved by the developer	</p>
+			</div>
+		</footer>
+	</section>
 </body>
 </html>
 
