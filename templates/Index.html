@@ -1,8 +1,9 @@
- 
+{% extends 'nav.html' %}
+{% load static %}
+{% block body %}
 <!DOCTYPE html>
 <html>
 <head>
-      {% load static %}
 
   <title>index</title>
   <meta charset="utf-8">
@@ -75,46 +76,8 @@
 		</p>
 		<p>- thea dorn</p>
 	</section>
+	{% endblock body%}
 
-	<section id="sec5">
-		<footer>
-			<div id="footer-main">
-				<div class="col-3 footer-div1">
-					<span class="logo">vocabook</span>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. </p>
-				</div>
-
-				<div class="col-3 footer-div2">
-					<ul>
-						<a href=""><li>contact</li></a>
-						<a href=""><li>about</li></a>
-						<a href=""><li>privacy & policy</li></a>
-						<a href=""><li>get in touch</li></a>
-					</ul>
-				</div>
-
-				<div class="col-3 footer-div3">
-					<div>
-						<h1 class="h4">register for  free</h1>
-						<button class="btn btn-primary btn-lg mt-4">signup</button>
-					</div>
-					<div class="icons mt-4">
-						<ul class="fs-5">
-							<a class="m-2" href=""><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
-							<a class="m-2" href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-							<a class="m-2" href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-							<a class="m-2" href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
-						</ul>
-					</div>
-				</div>
-			</div>
-
-			<div class="copyright">
-				<p>copyright @ all rights are reserved by the developer	</p>
-			</div>
-		</footer>
-	</section>
 </body>
 </html>
 
