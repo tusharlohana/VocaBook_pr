@@ -33,18 +33,18 @@
  
             <span id="span-item" >
                 <a class="btn" href="">Books</a>
-                <a class="btn" href="Upload.html">Upload</a>
+                <a class="btn" href="/upload">Upload</a>
             </span>
         </div>
         <div class="user">            
             <i class="fa fa-user-circle usericon " style="color: #fff">
                 <ul>
                 <li><a  href="{% url 'register'  %}">signup</a></li>
-                        <!-- {%if user.is_authenticated%} -->
+                        {%if user.is_authenticated%}
                 <li><a  href="{% url 'logout'  %}">logout</a></li>
-                        <!-- {%else%} -->
+                        {%else%}
                 <li><a  href="{% url 'login'  %}">signin</a></li>
-                        <!-- {%endif%} -->
+                        {%endif%}
                 </ul>
             
             </i>            
