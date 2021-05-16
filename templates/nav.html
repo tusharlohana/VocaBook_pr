@@ -24,7 +24,7 @@
     <nav id="nav">
         <div class="logo">
             <!-- <a href=""><img src=""></a> -->
-            Vocabook
+            <a href="/index" style="text-decoration: none; color: #000;">Vocabook</a>
         </div>
         <div class="search">
             <input class="form-control me-2" type="search" placeholder="Search..." aria-label="Search">
@@ -32,13 +32,13 @@
 
  
             <span id="span-item" >
-                <a class="btn" href="">Books</a>
+                <a class="btn" href="/vocabooks_list">Books</a>
                 <a class="btn" href="/upload">Upload</a>
             </span>
         </div>
         <div class="user">            
             <i class="fa fa-user-circle usericon " style="color: #fff">
-                <ul>
+                <ul class="">
                 <li><a  href="{% url 'register'  %}">signup</a></li>
                         {%if user.is_authenticated%}
                 <li><a  href="{% url 'logout'  %}">logout</a></li>
