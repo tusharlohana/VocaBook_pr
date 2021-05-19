@@ -148,12 +148,12 @@
 	#sec2 .div-two{
 		display: inline-flex;
 		margin: 5px;
-		display: flex;
+		/* display: flex; */
 		justify-content:space-around;
 	
 	}
 	#sec2 .div-two .card{
-		width: 19rem;
+		width: 15rem;
 		height: 6rem;
 		border: 1px solid #000;
 		text-transform: capitalize;
@@ -226,7 +226,7 @@
 	width: 100%;
 	height: 100%;
 	display: inline-flex;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 #sec5 .copyright{
 	height: 100px;
